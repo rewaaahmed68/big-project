@@ -1,0 +1,343 @@
+/* ================= BODY ================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+    color:#1f2937;
+    background:white;
+
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+
+    padding:15px 0;
+
+}
+
+
+/* ================= STEPS ================= */
+
+
+.booking-steps {
+
+    width:85% !important;
+    margin:auto !important;
+
+    display:flex !important;
+    align-items:flex-start !important;
+    justify-content:space-between !important;
+
+}
+
+
+/* Step */
+
+.step {
+
+    text-align:center;
+
+    flex-shrink:0;
+
+}
+
+
+/* Circle */
+
+.step span {
+
+    width:42px !important;
+    height:42px !important;
+
+    border-radius:50% !important;
+
+    display:flex !important;
+
+    align-items:center !important;
+    justify-content:center !important;
+
+    margin:auto;
+
+    background:#ddd;
+
+    color:#555;
+
+    font-weight:bold;
+
+    font-size:16px;
+
+}
+
+
+/* Blue circles */
+
+.step.done span,
+.step.active span {
+
+    background:#075cff !important;
+
+    color:white !important;
+
+}
+
+
+/* Step text */
+
+.step p {
+
+    margin-top:10px;
+
+    font-size:14px;
+
+    color:#4b5563;
+
+}
+
+
+
+/* Line */
+
+.line {
+
+    flex:1 !important;
+
+    height:2px !important;
+
+    background:#777 !important;
+
+    margin:20px 20px 0 !important;
+
+}
+
+
+
+/* ================= CONTAINER ================= */
+
+
+.booking-container {
+
+    max-width:1200px;
+
+}
+
+
+
+/* ================= TITLES ================= */
+
+
+h2 {
+
+    font-size:22px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+
+h5 {
+
+    font-weight:600;
+
+    margin-top:20px;
+
+}
+
+
+
+/* ================= TEXT ================= */
+
+
+p {
+
+    font-size:14px;
+
+}
+
+
+
+/* ================= TRIP BOX ================= */
+
+
+.trip-box {
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding:20px;
+
+}
+
+
+
+/* ================= INPUTS ================= */
+
+
+.form-control {
+
+    height:48px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+}
+
+
+.form-control:focus {
+
+    box-shadow:none;
+
+    border-color:#075cff;
+
+}
+
+
+
+/* ================= SUMMARY ================= */
+
+
+.summary {
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    position:sticky;
+
+    top:20px;
+
+}
+
+
+.summary img {
+
+    object-fit:cover;
+
+}
+
+
+.summary h5 {
+
+    margin-top:0;
+
+}
+
+
+.summary hr {
+
+    margin:20px 0;
+
+}
+
+
+.summary p {
+
+    color:#6b7280;
+
+}
+
+
+.badge {
+
+    border-radius:20px;
+
+}
+
+
+
+/* ================= TEXTAREA ================= */
+
+
+textarea {
+
+    resize:none;
+
+}
+
+
+
+/* ================= BUTTON ================= */
+
+
+.btn-primary {
+
+    background:#075cff;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+
+.btn-primary:hover {
+
+    background:#064bd8;
+
+}
+
+
+
+/* ================= MODAL ================= */
+
+
+.modal-content {
+
+    border-radius:20px;
+
+}
+
+
+.modal img {
+
+    margin-right:5px;
+
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+
+
+@media(max-width:992px){
+
+    .booking-steps {
+
+        width:100% !important;
+
+    }
+
+
+    .summary {
+
+        position:static;
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .line {
+
+        margin:20px 8px 0 !important;
+
+    }
+
+
+    .step span {
+
+        width:38px !important;
+
+        height:38px !important;
+
+    }
+
+}
